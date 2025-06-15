@@ -1,0 +1,28 @@
+{
+  "name": "project-battleship",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/astrostar41ust/Project-Battleship#readme",
+  "bugs": {
+    "url": "https://github.com/astrostar41ust/Project-Battleship/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrostar41ust/Project-Battleship.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type" : "module",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^30.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^30.0.0"
+  }
+}
