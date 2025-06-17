@@ -58,6 +58,7 @@ class GameBoard {
     const key = `${x},${y}`;
 
     if (this.board[y][x] === "x" || this.board[y][x] === "m") {
+       
       return "illegal";
     } else if (this.board[y][x] === null) {
       this.missedAttacks.add(key);

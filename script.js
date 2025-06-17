@@ -7,7 +7,7 @@ function runGame() {
   displayController.initializeBoards();
 
   const playRound = (coordinate) => {
-    const playerReport = gameController.playPlayerTurn(coordinate);
+    const playerReport =  gameController.playPlayerTurn(coordinate);
     console.log(playerReport)
     if (playerReport.moveStatus === 'llegal') return;
 
@@ -29,7 +29,7 @@ function runGame() {
       } else {
         displayController.updateStatus("Your turn. Attack the enemy!");
       }
-    }, 500);
+    }, 100);
   };
 
   displayController.addAttackListener(playRound);
